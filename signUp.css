@@ -1,0 +1,110 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Centered Container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #80C9FF, #ADD8E6); /* Light Blue Gradient */
+}
+
+/* Sign-Up Box */
+.login-box {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Headings */
+h2 {
+    color: #006F8E; /* Darker Blue for Headings */
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    text-align: left;
+    display: block;
+    margin-top: 10px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Button Styling */
+button {
+    background: #006F8E; /* Matching Darker Blue */
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #004C6A; /* Even Darker Blue for Hover Effect */
+}
+
+/* Login Links */
+.login-links {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.login-links a {
+    color: #006F8E; /* Matching Darker Blue for Links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-links a:hover {
+    color: #004C6A; /* Darker Blue on Hover */
+    text-decoration: underline;
+}
+
+/* Google Sign-in Button */
+.g_id_signin {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .login-box {
+        width: 90%;
+    }
+}
