@@ -1,0 +1,109 @@
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #2331b3, #794bb4);
+}
+
+.registrationBox {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 350px;
+  position: relative;
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.title {
+  color: white;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.inputContainer {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  padding-left: 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.input::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: white;
+}
+
+.checkboxContainer {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: white;
+  margin: 10px 0;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.registerButton {
+  width: 100%;
+  padding: 12px;
+  background: white;
+  color:black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.registerButton:hover {
+  background: black;
+  color: white;
+}
+
+.loginLink {
+  margin-top: 15px;
+  font-size: 12px;
+  color: white;
+}
+
+.loginLink a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.loginLink a:hover {
+  text-decoration: underline;
+}
